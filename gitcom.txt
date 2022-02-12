@@ -1,0 +1,28 @@
+cd 
+mkdir <>
+git init
+
+#remove global for specific folder only
+git config --global user.email "email.com"
+git config --global --unset user.name
+
+git add . 
+git commit -m "comments here"
+git log
+git status
+
+git remote add origin <github repo link>
+git remote -v
+git push -u origin master
+
+
+#check existing branch 
+git branch 
+
+#create new branch
+git branch <new branch>
+
+#changing branch 
+git checkout <new branch>
+
+
