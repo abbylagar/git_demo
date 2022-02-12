@@ -26,3 +26,6 @@ git branch <new branch>
 git checkout <new branch>
 
 
+git pull
+git fetch
+git merge
